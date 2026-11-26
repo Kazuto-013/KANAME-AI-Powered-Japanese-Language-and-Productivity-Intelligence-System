@@ -1,0 +1,3 @@
+# Optional voice extensions; see README for OS setup and model access requirements.
+pyttsx3==2.99
+pyannote.audio==3.3.2

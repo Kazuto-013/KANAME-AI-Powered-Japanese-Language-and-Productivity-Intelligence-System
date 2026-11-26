@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# KANAME [要] — pinned dependencies (Python 3.10)
+# Versions mirror the verified working local environment (Phase 4).
+# ---------------------------------------------------------------------------
+# CPU-only PyTorch wheel (keeps images lightweight, no CUDA).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# --- Web / UI ---
+streamlit==1.63.0
+gradio==6.27.0
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+python-multipart==0.0.32
+requests==2.34.2
+
+# --- Data processing / visualization ---
+pandas==2.3.3
+numpy==1.26.4
+plotly==5.20.0
+
+# --- Persistence ---
+SQLAlchemy==2.0.29
+alembic==1.13.1
+
+# --- Configuration / schemas ---
+python-dotenv==1.0.1
+pydantic==2.13.5
+
+# --- Japanese NLP ---
+SudachiPy==0.6.8
+SudachiDict-core==20260723
+
+# --- Machine learning (scikit-learn + custom PyTorch MLP) ---
+scikit-learn==1.7.2
+joblib==1.6.0
+torch==2.14.1+cpu
+
+# --- Speech-to-text ---
+faster-whisper==1.0.3
+
+# --- LLM / translation ---
+google-generativeai==0.8.6
+
+# --- Document generation ---
+python-docx==1.1.0
+reportlab==4.1.0
+pypdf==5.1.0

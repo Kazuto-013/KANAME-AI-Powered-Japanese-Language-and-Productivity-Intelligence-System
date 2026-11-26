@@ -1,0 +1,35 @@
+# Virtual environment (rebuilt inside the image)
+venv/
+.venv/
+env/
+
+# Local database files (created at runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets (injected via host environment at runtime)
+.env
+
+# Git / docs
+.git/
+.github/
+Software Documents/
+
+# Scratch
+_audit_outputs/
+.trae/

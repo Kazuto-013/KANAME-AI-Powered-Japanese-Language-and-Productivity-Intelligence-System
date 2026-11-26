@@ -221,3 +221,80 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- KANAME project rules ---
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+
+# Local database (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Custom PyTorch model artifacts (generated at runtime)
+ai_engine/machine_learning/models/*.pt
+ai_engine/machine_learning/models/*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Gradio
+__pycache__/
+
+# Datasets (large files)
+datasets/*.csv
+datasets/*.json
+datasets/*.txt
+!datasets/.gitkeep
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
